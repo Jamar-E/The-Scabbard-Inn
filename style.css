@@ -331,7 +331,7 @@ food.html body{
     font-size: 50px;
     text-align: center;
     padding: 20px;
-    margin: 0px;
+    margin: 43px;
     
 }
 
@@ -378,7 +378,7 @@ td,th {
                                                                         /* drinks section */
 #drink-section{
     display: flex;
-    height: 8vh;
+    height: 17vh;
     overflow: hidden;
     padding: 13px;
     margin: 0px;
@@ -392,8 +392,8 @@ td,th {
     color: #0A2C1B;
     font-size: 50px;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 20px;
+    margin: 43px;
     
 }
 
@@ -424,7 +424,7 @@ td,th {
 }
    
 .food-section.container-fluid {
-    height: 8vh;
+    height: 15vh;
     transition: height 2s ease-in-out;
     overflow: hidden;
 
