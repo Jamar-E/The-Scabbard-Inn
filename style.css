@@ -375,10 +375,10 @@ td,th {
 .Meals-table td{
     border: 1px solid;
 }
-
+                                                                        /* drinks section */
 #drink-section{
     display: flex;
-    height: 10vh;
+    height: 8vh;
     overflow: hidden;
     padding: 13px;
     margin: 0px;
@@ -386,15 +386,6 @@ td,th {
     color: #0A2C1B;
     transition: height 2s ease-in-out;
 
-}
-#drink-section:hover{
-    height: 88vh;
-    overflow: hidden;
-    padding: 13px;
-    margin: 0px;
-    background-color: #e6e1c1;
-    color: #0A2C1B;
-    transition: height 2s ease-in-out;
 }
 
 #drink-section h1{
@@ -406,6 +397,22 @@ td,th {
     
 }
 
+#drink-section h2{
+    text-align: center;
+    margin: 19px;
+}
+#drink-section:hover{
+    height: 88vh;
+    overflow: hidden;
+    padding: 13px;
+    margin: 0px;
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    transition: height 2s ease-in-out;
+}
+
+
+                                                                  /* contact button */
 .contact-btn{
     width: 460px;
     font-size: smaller;
@@ -429,11 +436,15 @@ td,th {
     overflow: hidden;
 }
 
-.col-lg.\31 .Drinktxt {
-    height: 9vh;
+.col-lg .Drinktxt {
+    height: 8vh;
     overflow: hidden;
     transition: height 2s ease-in-out;
+    padding: 6px;
+    margin: 0px;
 }
+
+
 
 .col-lg.\31 .Drinktxt :hover{
     height: 99vh;
