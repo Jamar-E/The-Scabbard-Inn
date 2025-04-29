@@ -377,15 +377,23 @@ td,th {
 
 #drink-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: auto;
-    padding: 20px;
+    height: 10vh;
+    overflow: hidden;
+    padding: 13px;
     margin: 0px;
     background-color: #e6e1c1;
     color: #0A2C1B;
+    transition: height 2s ease-in-out;
 
+}
+#drink-section:hover{
+    height: 88vh;
+    overflow: hidden;
+    padding: 13px;
+    margin: 0px;
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    transition: height 2s ease-in-out;
 }
 
 #drink-section h1{
@@ -395,6 +403,38 @@ td,th {
     padding: 20px;
     margin: 0px;
     
+}
+
+.contact-btn{
+    width: 460px;
+    font-size: smaller;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #0a2c1b;
+    transition: 0.3s;
+}
+   
+.food-section.container-fluid {
+    height: 8vh;
+    transition: height 2s ease-in-out;
+
+}
+
+.food-section.container-fluid:hover {
+    height: 100vh;
+    transition: height 2s ease-in-out;
+}
+
+.col-lg.\31 .Drinktxt {
+    height: 9vh;
+    overflow: hidden;
+    transition: height 2s ease-in-out;
+}
+
+.col-lg.\31 .Drinktxt :hover{
+    height: 99vh;
+    transition: height 2s ease-in-out;
 }
 
                                 /* contact form */
@@ -501,7 +541,8 @@ td,th {
         transition: 0.3s;
         padding: 5px;
     }
-    
+
+
 /*
 .box1{
     background-color: #ffffff;
