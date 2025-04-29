@@ -1,0 +1,540 @@
+/* colors #e2a00d #0b0704 */
+/* global */
+
+.container-fluid{
+    padding: 0px!important;
+    margin: 0px!important;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0A2C1B;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: #0a2c1b;
+    
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+
+}
+
+nav li {
+    padding: 7px;
+    list-style: none;
+    position: sticky;
+    margin: 1px 11px;
+}
+
+nav a {
+    color: chocolate                                                        ;
+    font-size: larger;
+    text-decoration: none;
+    position: sticky;
+
+}
+
+nav a:hover{
+    border-top: 2px solid;
+    border-bottom: 2px solid;}
+
+
+
+#home:hover {
+    background-size: cover;
+    font-size: large;
+    align-items: center;
+
+}
+
+#food:hover{
+    font-size: large;
+    text-align: center;
+}
+#food:hover + .homedrop {
+    display: inline-flex;
+}
+
+.homedrop {
+    display: none;
+    position: absolute;
+    background-color: #e6e1c1;
+    padding: 10px;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#drinks:hover{
+    font-size: large;
+    vertical-align: middle;
+;
+
+
+}
+
+#contact:hover{
+    font-size: large;
+ ;
+}
+
+
+
+.hero{
+    background:url("Hero1.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #f8f9fa;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-md-4.box {
+    width: 100vh;
+}
+
+.Welcome{   
+    height: 100vh;
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 13%;
+
+    margin: 0px;
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+} 
+
+.feature Drinks {
+    background-image: url("drinks.png") no-repeat center center fixed;
+
+}
+
+                                                                                                            
+
+.Welcome{
+    background-color:#0A2C1B;
+    border-top:solid 16px chocolate;
+    border-bottom: solid 16px chocolate;
+    color: #e6e1c1;
+}
+
+.btns {
+    display: inline-grid;
+}
+
+.food-btn{
+width: 460px;
+font-size: smaller;
+padding: 6px;
+color: #e6e1c1;
+border: 2px solid #e6e1c1;
+background-color: #f0f8ff00;
+transition: 0.3s;
+}
+
+
+.food-btn:hover{
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    font-size: smaller;
+    border-radius: 369px 369px 0px 0px;
+    transition: 0.3s;
+}
+
+.drinks-btn{
+    width: 460px;
+    font-size: smaller;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #f0f8ff00;
+    transition: 0.3s;
+    }
+    
+    
+    .drinks-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        border-radius:  0px 0px 369px 369px;
+        transition: 0.3s;
+    }
+.Video-container{
+    background-color: #e6e1c1;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.video-text {
+    padding: 3%;
+    text-align: -webkit-match-parent;
+    vertical-align: middle;
+    display: inline-grid;
+    font-size: 1.5em;
+}
+
+.video-text h2{
+    font-size: 3rem;
+
+
+}
+
+.vid {
+    padding: 41px;
+    margin: 0px;
+    float: right;
+    width: 59%;
+}
+.contact-form-fluid {
+    background-color: #e6e1c1;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e6e1c1;
+    color: #e6e1c1;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: chocolate;
+    box-shadow: 0 0 5px rgba(210, 105, 30, 0.5);
+}
+
+.contact-form button {
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: chocolate;
+    color: #ffffff;
+}
+
+.contact-form tr td table  {
+    background-color: aquamarine;
+}
+
+/*PAGE 2 Food and drink  */
+food.html body{
+    background-color: #0A2C1B;
+    padding: 0px;
+    margin: 0px;
+}
+.hero2{
+    background:url("Hero2.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    width: 30vw;
+}
+
+.box2{
+    background-color: #e6e1c1;
+    box-shadow: -1px -6px 16px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid;
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    width: 30vw;
+}
+
+.box3{
+    background-color: #ffffff;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    width: 30vw;
+}
+
+.food-section{
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    height: 100vh;
+    width: auto;
+
+}
+
+.food-section h1{
+    color: #e6e1c1;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.Foodtxt{
+    text-align: center;
+}
+
+td,th {
+    border: 1px solid;
+}
+
+.Starters h2,p{
+    text-align: center;
+
+}
+.Starters-table{
+    margin: auto;
+}
+
+.Starters-table th,td{
+    border: 1px solid;
+}
+
+.Starters-table td{
+    border: 1px solid;
+}
+
+.Meals h2,p{
+     text-align: center;
+   
+}
+
+.Meals-table{
+    margin: auto;
+    
+}
+.Meals-table th,td{
+    border: 1px solid;
+}
+
+.Meals-table td{
+    border: 1px solid;
+}
+
+#drink-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    padding: 20px;
+    margin: 0px;
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+
+}
+
+#drink-section h1{
+    color: #0A2C1B;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+                                /* contact form */
+
+.container.form {
+    padding: 3%;
+    background-color: #e6e1c1;
+    border-radius: 10%;
+    margin: 1% auto;
+    align-items: center;
+}
+.container.form h2{ 
+    text-align: center;
+    color: #0A2C1B;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+    background-color: #e6e1c1;
+}
+
+/* sticky food and drink button */
+.sticky-buttons{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+.sticky-buttons :hover{
+    display: inline-block;
+    justify-content: center;
+}
+
+.stickyfood-btn{
+    width: 92px;
+    font-size: smaller;
+    border-radius: 393px 360px 0 0;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #0a2c1b;
+    transition: 0.3s;
+    }
+
+   
+
+    
+.stickyfood-btn:hover{
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    font-size: smaller;
+    border-radius:0px 0px 369px 369px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.stickydrinks-btn{
+    width: 92px;
+    font-size: smaller;
+    padding: 2px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color:#0a2c1b;
+    transition: 0.3s;
+    }
+    
+    
+    .stickydrinks-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        transition: 0.3s;
+        padding:5px;
+        border-radius: 369px;
+        padding: 5px;
+    }
+
+    .stickycontact-btn{
+        width: 92px;
+        font-size: smaller;
+        border-radius: 0 0 393px 360px;
+        padding: 6px;
+        color: #e6e1c1;
+        border: 2px solid #e6e1c1;
+        background-color: #0a2c1b;
+        transition: 0.3s;
+        }
+        
+    .stickycontact-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        border-radius: 369px 369px 0px 0px;
+        transition: 0.3s;
+        padding: 5px;
+    }
+    
+/*
+.box1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box3{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+*/
+
