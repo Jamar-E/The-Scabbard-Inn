@@ -401,7 +401,7 @@ td,th {
     color: #0A2C1B;
     font-size: 50px;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     
 }
@@ -419,6 +419,7 @@ td,th {
 .food-section.container-fluid {
     height: 8vh;
     transition: height 2s ease-in-out;
+    overflow: hidden;
 
 }
 
