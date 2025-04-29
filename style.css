@@ -322,6 +322,7 @@ food.html body{
     color: #e6e1c1;
     height: 100vh;
     width: auto;
+    overflow: hidden;
 
 }
 
@@ -424,6 +425,7 @@ td,th {
 .food-section.container-fluid:hover {
     height: 100vh;
     transition: height 2s ease-in-out;
+    overflow: hidden;
 }
 
 .col-lg.\31 .Drinktxt {
