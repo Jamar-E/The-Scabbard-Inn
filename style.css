@@ -330,8 +330,8 @@ food.html body{
     color: #e6e1c1;
     font-size: 50px;
     text-align: center;
-    padding: 20px;
-    margin: 43px;
+    padding: 15px;
+    margin: 46px;
     
 }
 
@@ -450,6 +450,19 @@ td,th {
     height: 99vh;
     transition: height 2s ease-in-out;
 }
+
+
+.call-to-action  .text-center{
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    width: 100vw;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 
                                 /* contact form */
 
