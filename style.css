@@ -322,7 +322,6 @@ food.html body{
     color: #e6e1c1;
     height: 100vh;
     width: auto;
-    overflow: hidden;
 
 }
 
@@ -330,8 +329,8 @@ food.html body{
     color: #e6e1c1;
     font-size: 50px;
     text-align: center;
-    padding: 15px;
-    margin: 46px;
+    padding: 20px;
+    margin: 0px;
     
 }
 
@@ -375,10 +374,10 @@ td,th {
 .Meals-table td{
     border: 1px solid;
 }
-                                                                        /* drinks section */
+
 #drink-section{
     display: flex;
-    height: 17vh;
+    height: 10vh;
     overflow: hidden;
     padding: 13px;
     margin: 0px;
@@ -386,20 +385,6 @@ td,th {
     color: #0A2C1B;
     transition: height 2s ease-in-out;
 
-}
-
-#drink-section h1{
-    color: #0A2C1B;
-    font-size: 50px;
-    text-align: center;
-    padding: 20px;
-    margin: 43px;
-    
-}
-
-#drink-section h2{
-    text-align: center;
-    margin: 19px;
 }
 #drink-section:hover{
     height: 88vh;
@@ -411,8 +396,15 @@ td,th {
     transition: height 2s ease-in-out;
 }
 
+#drink-section h1{
+    color: #0A2C1B;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    
+}
 
-                                                                  /* contact button */
 .contact-btn{
     width: 460px;
     font-size: smaller;
@@ -424,45 +416,26 @@ td,th {
 }
    
 .food-section.container-fluid {
-    height: 15vh;
+    height: 8vh;
     transition: height 2s ease-in-out;
-    overflow: hidden;
 
 }
 
 .food-section.container-fluid:hover {
     height: 100vh;
     transition: height 2s ease-in-out;
-    overflow: hidden;
 }
 
-.col-lg .Drinktxt {
-    height: 8vh;
+.col-lg.\31 .Drinktxt {
+    height: 9vh;
     overflow: hidden;
     transition: height 2s ease-in-out;
-    padding: 6px;
-    margin: 0px;
 }
-
-
 
 .col-lg.\31 .Drinktxt :hover{
     height: 99vh;
     transition: height 2s ease-in-out;
 }
-
-
-.call-to-action  .text-center{
-    background-color: #0A2C1B;
-    color: #e6e1c1;
-    width: 100vw;
-    padding: 20px;
-    margin: 0px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-}
-
 
                                 /* contact form */
 
